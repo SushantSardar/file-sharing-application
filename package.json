@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "@babel/plugin-proposal-private-property-in-object" : ""
+  }
+}
