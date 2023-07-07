@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+   
+}
+
+.container {
+  height: 100vh;
+  background: #0000;
+  overflow : hidden;
+  display: flex;
+}
+
+img {
+  width: 50%;
+}
+
+.wrapper{
+  background-color: #ffff;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 600;
+  color: aqua;
+  margin: 40px ,0;
+  /* margin-bottom: 10px; */
+}
+
+button {
+  width:  150px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: gray;
+  border: 1px solid gray;
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+}
